@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Input Test</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="firstcol">
+        <div class="text">
+          <label for="textfield"
+            >Text Field<i
+              class="fa fa-asterisk"
+              style="font-size: 13px; color: red"
+            ></i></label
+          ><br />
+          <input id="textfield" placeholder="Input Text" type="text" />
+        </div>
+        <div class="select">
+          <label for="selectfield"
+            >Select Field<i class="fa fa-info-circle"></i></label
+          ><br />
+          <select name="" id="selectfield" value="Select">
+            <option value="" disabled selected>Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="txtarea">
+          <label for="textarea"
+            >Text Area<i class="fa fa-info-circle"></i></label
+          ><br />
+          <textarea style="resize: vertical;"
+            name=""
+            id="textarea"
+            cols="30"
+            placeholder="Text Area"
+            rows="10"
+          ></textarea>
+        </div>
+        <div class="tfaddons">
+          <label for=""
+            >Text Field with Add-ons<i
+              class="fa fa-asterisk"
+              style="font-size: 13px; color: red"
+            ></i
+          ></label>
+          <div class="input-container" id="addons">
+            <label class="label" for="input-text">Label </label>
+
+            <input
+              type="text"
+              placeholder="Input Text"
+              id="input-text"
+              class="form-control"
+            />
+            <button class="btn">Button</button>
+          </div>
+        </div>
+      </div>
+      <div class="secondcol">
+        <div class="search">
+          <div id="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </div>
+          <div id="search1">
+            <input type="search" name="" id="search" placeholder="search" />
+          </div>
+        </div>
+        <div class="counter">
+          <button class="decrement-btn">-</button>
+          <span class="counter">1</span>
+          <button class="increment-btn">+</button>
+        </div>
+
+        <div class="check">
+            
+          <input type="checkbox" name="" id="checkbox" />
+          <label for="checkbox">Checkbox</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="" id="radio" />
+          <label for="radio">Radio Button</label>
+        </div>
+        <div class="switc">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

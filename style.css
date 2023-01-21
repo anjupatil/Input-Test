@@ -1,0 +1,362 @@
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+/* Add some padding and margin to the form elements to give them some space */
+.main div{
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+.firstcol{
+    margin-right: 70px;
+    flex: 1;
+}
+.secondcol{
+    margin-top: 45px;
+    flex: 1;
+}
+input, select, textarea {
+    border-radius: 4px;
+}
+
+input:hover, select:hover, textarea:hover {
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 2px solid #2196F3;
+}
+
+.input-container {
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
+.input-container .btn {
+    border-radius: 4px;
+}
+
+.input-container .btn:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+.input-container .label {
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-top: -12px; */
+    
+}
+
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(139, 132, 132);
+    border-radius: 3px;
+    height: 20px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+   
+
+    
+}
+div .search{
+    padding: 2px 1px;
+}
+.search i{
+    opacity: 0.5;
+    
+
+}
+#search1{
+    margin: 0px;
+    width: 100%;
+}
+#search2{
+    margin: 0px;
+    
+}
+.search button{
+    background-color: white;
+    outline: none;
+    border: none transparent;
+    margin: 0px;
+}
+#search{
+    border: none transparent;
+    outline: none;
+    width: 100%;
+    
+}
+
+
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(140, 136, 136);
+    width: 100%;
+    height: 25px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+
+
+#addons {
+    padding:0px;
+    
+}
+#addons button{
+    background-color: white;
+    border: 1px solid;
+    padding: 4px;
+    width: 80px;
+   
+
+    
+    
+    
+}
+.txtarea textarea{
+    width: 100%;
+}
+.form-control-container {
+    display:flex ;
+    align-items: center;
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+    
+    outline: none;
+    border: none transparent; 
+}
+
+.label {
+   
+}
+
+.counter {
+    display: flex;
+    border: 1px solid rgb(110, 100, 100);
+    width: fit-content;
+    padding: 1px;
+
+   
+   
+}
+div .counter{
+    padding: 2px 1px;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.counter .decrement-btn:hover, .counter .increment-btn:hover {
+    background-color: #2196F3;
+    color: white;
+}
+.counter button{
+    outline: none;
+    border: none transparent; 
+    background-color: white;
+    
+    
+}
+.counter .counter {
+    font-size: 16px;
+    font-weight: bold;
+}
+.counter span{
+    outline: none;
+    border: none transparent; 
+}
+.decrement-btn, .increment-btn {
+   
+
+    
+    
+   
+}
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .switch .slider {
+    border-radius: 18px;
+}
+.switch input:checked + .slider {
+    background-color: #83b4c2;
+}
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+div .check{
+    padding: 0px;
+}
+div .radio{
+    padding: 0px;
+}
+
+div .switc{
+    padding: 0px;
+}
+ label i{
+    padding: 10px;
+    height: ;
+ }
+.text input{
+width: 100%;
+height: 25px;
+border: 1px solid rgb(140, 136, 136);
+}
+
+.select select{
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgb(140, 136, 136);
+}
+ .search{
+    height: 25px;
+    align-items: center;
+    justify-items: center;
+    
+ }
+
+ .check {
+    display: flex;
+    flex-direction: row;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Add a media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    /* Change the flex-direction of the main container to column */
+    .main {
+      flex-direction: column;
+    }
+    /* Reduce the font size of the labels */
+    label {
+      font-size: 14px;
+    }
+    /* Reduce the margin and padding of the form elements */
+    .firstcol, .secondcol {
+      margin: 10px 0;
+      padding: 10px;
+    }
+    /* Reduce the size of the input fields */
+    input, select, textarea {
+      width: 100%;
+      font-size: 14px;
+    }
+    /* Change the layout of the text field with add-ons */
+    .tfaddons {
+      flex-direction: column;
+    }
+    /* Reduce the size of the add-ons button */
+    .tfaddons .btn {
+      width: 50%;
+      font-size: 14px;
+    }
+    
+    .check {
+        display: flex;
+        flex-direction: row;
+    }
+    .check input{
+        width: 10px;
+        height: 10px;
+        
+    }
+    .radio input{
+        width: 10px;
+        height: 10px;
+
+    }
+    
+    .radio{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  
